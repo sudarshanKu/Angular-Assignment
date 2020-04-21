@@ -9,6 +9,7 @@ export class Assignment1Component {
 
  value: string;
  OnWrite(item){
+   console.log(item.target.value)
    this.value=item.target.value;
    
  }
